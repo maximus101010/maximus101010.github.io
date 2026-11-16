@@ -1,28 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Muhammad Burhan – Apps</title>
+<title>Mo Apps</title>
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 60px auto; padding: 0 20px; line-height: 1.5; }
-  h1 { margin-bottom: 4px; }
-  p.sub { color: #888; margin-top: 0; }
-  li { margin: 8px 0; }
-  a { color: #3E7BFA; }
+  :root { --accent:#6366F1; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#1e1b4b;
+         background:linear-gradient(135deg,#eef2ff,#fae8ff 50%,#e0f2fe); min-height:100vh; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px; }
+  h1 { font-size:40px; margin:0 0 6px; }
+  p.lead { color:#4b5563; margin:0 0 36px; font-size:18px; }
+  .card { background:rgba(255,255,255,.75); backdrop-filter:blur(10px); border-radius:20px; padding:22px 24px;
+          margin-bottom:16px; box-shadow:0 10px 30px rgba(99,102,241,.12); }
+  .card h2 { margin:0 0 6px; font-size:22px; }
+  .card p { margin:0; color:#4b5563; }
+  a { color:var(--accent); font-weight:600; text-decoration:none; }
+  footer { margin-top:40px; color:#6b7280; font-size:14px; }
 </style>
 </head>
 <body>
-  <h1>Muhammad Burhan</h1>
-  <p class="sub">Independent iOS apps</p>
-  <h2>Apps</h2>
-  <ul>
-    <li><strong>MindGym</strong> – daily brain training games</li>
-  </ul>
-  <h2>Support &amp; privacy</h2>
-  <ul>
-    <li><a href="https://gist.github.com/maximus101010/31266dd979419315efa446c0b154a95f">Privacy Policy</a></li>
-  </ul>
+<main>
+  <h1>Mo Apps</h1>
+  <p class="lead">Simple, beautiful apps for iPhone and iPad by Muhammad Burhan.</p>
+
+  <div class="card"><h2>DayNote</h2><p>Calendar, notes, tasks and mood tracking in one beautiful app.</p></div>
+  <div class="card"><h2>MindGym</h2><p>Quick brain games to keep your mind sharp every day.</p></div>
+  <div class="card"><h2>Wishing You</h2><p>Send lovely greetings to the people who matter.</p></div>
+  <div class="card"><h2>Simple Quran App</h2><p>Read the Quran, check prayer times and enjoy a beautiful Azan clock.</p></div>
+  <div class="card"><h2>Numberlight</h2><p>Turn a trial balance into clear, professional management reports.</p></div>
+  <div class="card"><h2>Revisely</h2><p>Smart revision for ACCA exams with quizzes and flashcards.</p></div>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a><br><br>
+    © 2026 Muhammad Burhan
+  </footer>
+</main>
 </body>
 </html>
